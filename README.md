@@ -19,7 +19,7 @@ You can modify your composer.json file and run composer update to include the la
 Or you can run the composer require command from your terminal:
 
 ```php
-composer require kevindierkx/huevatar:1.0.*
+composer require kevindierkx/laravel-s3v2:1.0.*
 ```
 
 Once the package is installed you will need to open ```config/app.php``` and register the required service provider:
