@@ -1,12 +1,12 @@
-## Laravel 5.1 Aws-S3-v2 SDK driver
+# Laravel 5.x Aws-S3-v2 SDK driver
 
 This package adds support for the Aws-S3-v2 SDK. Some S3 compatible providers don't support the newest version of the SDK.
 
-### Installation
+## Installation
 
 To install this package you will need:
 
-- Laravel 5.1+
+- Laravel 5+
 
 You can modify your composer.json file and run composer update to include the latest version of the package in your project:
 
@@ -30,7 +30,7 @@ Once the package is installed you will need to open ```config/app.php``` and reg
 ]
 ```
 
-### Usage
+## Usage
 
 Use the ```s3-v2``` driver in your S3 configuration. With the ```base_url``` parameter you can specify a different endpoint.
 
@@ -45,10 +45,10 @@ Use the ```s3-v2``` driver in your S3 configuration. With the ```base_url``` par
 ],
 ```
 
-### Credits
+## Credits
 
 - [Kevin Dierkx](https://github.com/kevindierkx)
 
 ### License
 
-The MIT License (MIT). Please see [License File](https://github.com/kevindierkx/elicit/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
