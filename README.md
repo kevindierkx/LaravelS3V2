@@ -12,14 +12,14 @@ You can modify your composer.json file and run composer update to include the la
 
 ```json
 "require": {
-    "kevindierkx/laravel-s3v2": "1.0.*"
+    "kevindierkx/laravel-s3v2": "1.1.*"
 }
 ```
 
 Or you can run the composer require command from your terminal:
 
 ```php
-composer require kevindierkx/laravel-s3v2:1.0.*
+composer require kevindierkx/laravel-s3v2:1.1.*
 ```
 
 Once the package is installed you will need to open ```config/app.php``` and register the required service provider:
